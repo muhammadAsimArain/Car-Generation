@@ -1,0 +1,1070 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+::selection {
+  background-color: rgba(219, 75, 87, 0.8);
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+  padding: auto;
+}
+
+div#perimery-item {
+  display: flex;
+  background-color: black;
+  color: white;
+  padding: 20px 20px 20px 20px;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 200;
+  font-family: emoji;
+  align-items: center;
+}
+
+p.text-para1 {
+  width: 300px;
+  font-weight: 600;
+  text-align: center;
+  font-family: math;
+}
+
+a.li-item {
+  color: white;
+  text-decoration: none;
+  padding-left: 12px;
+}
+
+.car-game {
+  background: url(image/car1.jpg);
+  background-color: rgba(63, 51, 51, 0.94);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 222vh;
+  height: 745px;
+}
+
+h1.header3 {
+  font-size: 23px;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: center;
+  font-family: auto;
+}
+
+img.auto-slid {
+  border-radius: 115px;
+  margin: 20px 20px 20px 94px;
+  width: 200px;
+  height: 200px;
+}
+
+.auto-slider {
+  display: flex;
+  justify-content: center;
+  gap: 51px;
+  border-radius: 50px;
+}
+
+section#car-game4 {
+  margin-top: 108px;
+}
+
+span.text-3xl.font-bold.text-blue-600 {
+  color: #ec7962;
+}
+
+h2.text-2xl.font-bold.text-gray-800 {
+  color: #ec7962;
+}
+
+button.mt-6.w-full.bg-blue-600.text-white.font-bold.py-2.rounded-lg.hover\:bg-blue-700.transition {
+  color: white;
+  background: #dc0100;
+}
+
+button.mt-6.w-full.bg-blue-600.text-white.font-bold.py-2.rounded-lg.hover\:bg-blue-700.transition:hover {
+  background-color: white;
+  color: #dc0100;
+}
+
+button.perimery-btn2 {
+  margin: 30px 11px -9px 100px;
+  padding: 10px 24px 10px 24px;
+  border-radius: 8px;
+  border: none;
+  font-size: 22px;
+  font-family: auto;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+button.perimery-btn2:hover {
+  background-color: #000000;
+  color: white;
+  text-decoration: underline;
+}
+
+section#car-game1 {
+  margin-top: 1px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+section#car-game2 {
+  margin-top: 83px;
+}
+
+h1.text-heading {
+  text-align: center;
+  font-size: 95px;
+  font-family: auto;
+  text-transform: uppercase;
+
+}
+
+p.text-para2 {
+  text-align: center;
+}
+
+h1.text-heading:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  text-transform: capitalize;
+
+  font-size: 95px;
+  font-family: auto;
+}
+
+.main-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+h1.text-para {
+  font-size: 33px;
+  font-family: none;
+  text-transform: uppercase;
+  padding-bottom: 12px;
+}
+
+
+
+button.card-price {
+  margin-top: 20px;
+  padding: 10px 24px 10px 24px;
+  border-radius: 8px;
+  border: none;
+  font-size: 22px;
+  margin-left: 83px;
+  font-family: auto;
+  cursor: pointer;
+  background-color: white;
+  color: #000000;
+}
+
+p.price-card {
+  text-align: center;
+}
+
+button.card-price:hover {
+  background-color: black;
+  color: white;
+  text-decoration: underline;
+}
+
+
+
+button#call-icon2,
+button#call-icon1,
+button#call-icon3 {
+  margin-top: 20px;
+  padding: 10px 24px 10px 24px;
+  border-radius: 8px;
+  border: none;
+  font-size: 22px;
+  font-family: auto;
+  background-color: white;
+  color: black;
+  margin-left: 87px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+button#call-icon2:hover {
+  padding: 10px 24px 10px 24px;
+  border-radius: 8px;
+  background-color: #1DA1F2;
+  color: white;
+  text-decoration: underline;
+}
+
+button#call-icon1:hover {
+  padding: 10px 24px 10px 24px;
+  border-radius: 8px;
+  background-color: #1DA1F2;
+  color: white;
+  text-decoration: underline;
+}
+
+button#call-icon3:hover {
+  padding: 10px 24px 10px 24px;
+  border-radius: 8px;
+  background-color: #1DA1F2;
+  color: white;
+  text-decoration: underline;
+}
+
+button.perimery-btn1 {
+  margin-top: 20px;
+  padding: 10px 24px 10px 24px;
+  border-radius: 8px;
+  border: none;
+  font-size: 22px;
+  font-family: auto;
+  cursor: pointer;
+  background-color: white;
+  color: #000000;
+}
+
+button.perimery-btn1:hover {
+  background-color: black;
+  color: white;
+  text-decoration: underline;
+}
+
+
+.main-box1 {
+  display: flex;
+  gap: 37px;
+  justify-content: center;
+  margin-top: 57px;
+}
+
+img.car.repair2,
+img.car.repair1,
+img.car.repair3 {
+  width: 300px;
+  height: 300px;
+  border-radius: 194px;
+}
+
+
+.pricing-card {
+  display: flex;
+  margin-top: 177px;
+  justify-content: center;
+  gap: 39px;
+}
+
+.bg-\[\#0c0824\].text-white.rounded-2xl.shadow-lg.p-6.w-80.border-2.border-red-500.relative {
+  background: url(image/car7.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: none;
+  width: 100%;
+}
+
+h1.card-price1 {
+  font-size: 76px;
+  text-align: center;
+  font-family: auto;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-bottom: 87px;
+
+}
+
+section#car-game3 {
+  margin-top: 85px;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding-bottom: 71px;
+
+}
+
+.main-slider {
+  margin-top: 85px;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding-bottom: 71px;
+}
+
+.main-box2 {
+  border: 1px solid #000000;
+  padding: 10px 10px 10px 10px;
+  border-radius: 16px;
+  background: radial-gradient(black, transparent);
+}
+
+h1.text-heading1 {
+  font-size: 27px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: auto;
+}
+
+h1.text-fist {
+  font-size: 40px;
+  text-align: center;
+  font-family: math;
+  text-transform: uppercase;
+  padding-top: 52px;
+  text-decoration: underline;
+  padding-bottom: 31px;
+}
+
+.border-animation-left .item-anchor:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  left: 0;
+  bottom: 0;
+  z-index: 9;
+  background: var(--bs-dark);
+  transition: all 0.5s ease;
+}
+
+
+
+
+p.perimery-item1 {
+  width: 276px;
+  text-align: center;
+}
+
+.mainbox1 {
+  padding: 10px 44px 13px 10px;
+}
+
+h1.new-car {
+  font-size: 74px;
+  font-weight: 500;
+  font-family: auto;
+  text-align: center;
+  margin-bottom: 72px;
+}
+
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+.main {
+  display: flex;
+  color: white;
+  text-align: center;
+  padding-top: 183px;
+}
+
+h1.header1 {
+  font-weight: 100;
+  font-family: math;
+  text-transform: uppercase;
+  padding-bottom: 19px;
+  padding-top: 14px;
+  letter-spacing: 2px;
+  padding-left: 113px;
+  line-height: 29px;
+}
+
+p.perimery1 {
+  width: 892px;
+  padding-left: 311px;
+}
+
+button.perimery-btn {
+  padding: 10px 24px 10px 24px;
+  border-radius: 8px;
+  border: none;
+  font-size: 22px;
+  font-family: auto;
+  cursor: pointer;
+  background-color: white;
+  color: #000000;
+  margin-left: 550px;
+  margin-top: 22px;
+}
+
+button.perimery-btn:hover {
+  background-color: black;
+  color: white;
+  box-shadow: 1px 3px 17px 4px rgb(189, 68, 68);
+
+}
+
+img.car-image {
+  border-radius: 50px;
+  height: 50px;
+  width: 50px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+span.herader {
+  font-size: 37px;
+  text-decoration: underline;
+}
+
+.multi-item {
+  position: relative;
+}
+
+/* Dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Toggle Button */
+.dropdown-toggle {
+  background-color: #000000;
+  /* Facebook blue */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-toggle:hover {
+  background-color: #fff;
+  /* Darker blue on hover */
+  color: black;
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+  position: absolute;
+  top: 50px;
+  /* Adjust based on button height */
+  left: 0;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.dropdown-menu ul {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+}
+
+.dropdown-menu ul li {
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-menu ul li:hover {
+  background-color: #f0f0f0;
+}
+
+.dropdown-menu ul li a {
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* Space between icon and text */
+}
+
+/* Icon Colors */
+.dropdown-menu ul li a i.fa-twitter {
+  color: #1DA1F2;
+}
+
+/* Twitter */
+.dropdown-menu ul li a i.fa-facebook {
+  color: #4267B2;
+}
+
+/* Facebook */
+.dropdown-menu ul li a i.fa-pinterest {
+  color: #E60023;
+}
+
+/* Pinterest */
+.dropdown-menu ul li a i.fa-tumblr {
+  color: #35465C;
+}
+
+/* Tumblr */
+.dropdown-menu ul li a i.fa-instagram {
+  color: #E1306C;
+}
+
+/* Instagram */
+
+/* Show Dropdown Menu */
+.dropdown-menu.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+img.carvar-image {
+  margin-right: 8px;
+  width: 152px;
+}
+
+
+
+
+
+/* Header and Nav */
+header {
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Hamburger Icon */
+.hamburger {
+  display: none;
+  /* Hidden by default on larger screens */
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburger .line {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 4px 0;
+  transition: all 0.3s ease;
+}
+
+/* Navigation Links */
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #f39c12;
+  /* Highlight color on hover */
+}
+
+/* Active class for toggling the menu */
+.nav-links.active {
+  display: flex;
+  /* Show the menu */
+}
+
+/* Hamburger animation */
+.hamburger.active .line:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.active .line:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .line:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+h1.text-para {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.mainbox1 {
+  width: 30%;
+  background: white;
+  margin: 12px 20px;
+  text-align: center;
+  /* margin: auto; */
+  align-items: center;
+  padding: 20px;
+  border-radius: 14px;
+}
+
+svg {
+  width: 50px;
+}
+
+p.perimery-item1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  font-size: 15px;
+}
+
+footer.bg-gray-900.text-white.py-6 {
+  background: #c4c4c4;
+  padding: 30px 30px 66px 30px;
+}
+
+h3.font-semibold {
+  color: black;
+  font-size: 19px;
+  font-family: math;
+}
+
+p.text-gray-400.mt-2,
+li {
+  color: black;
+}
+
+
+button.mt-2.w-full.bg-blue-500.hover\:bg-blue-600.text-white.py-2.rounded {
+  background: black;
+  font-weight: 700;
+}
+
+section#car-game5 {
+  margin-top: 84px;
+}
+
+.border-t.border-gray-700.mt-6.pt-4.text-center.text-gray-400 {
+  color: black;
+}
+
+h2.text-2xl.font-bold {
+  color: black;
+  text-transform: uppercase;
+}
+
+a.item-anchor {
+  color: black;
+}
+
+img.whatsapp-icon {
+  width: 62px;
+  margin: 20px 20px 38px 20px;
+  z-index: 9;
+  bottom: 8%;
+  position: fixed;
+}
+
+img.whatsapp-icon {
+  animation: bounce2 2s ease infinite;
+}
+
+@keyframes bounce2 {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-30px);
+  }
+
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+@media(min-width:1050px) and (max-width:1150px) {
+  div#perimery-item {
+    width: 108%;
+    padding: 10px 10px 10px 10px;
+  }
+
+  div#perimery-item {
+    width: 100%;
+  }
+
+  section#\#Services {
+    width: 346vh;
+  }
+
+  .row {
+    width: 325vh;
+    flex-wrap: wrap;
+  }
+
+  .auto-slider {
+    width: 324vh;
+    margin: auto;
+    flex-wrap: wrap;
+  }
+
+  img.auto-slid {
+    margin: auto;
+    padding: 10px;
+  }
+
+  button.perimery-btn2 {
+    margin-left: 42%;
+  }
+
+}
+
+
+
+@media(min-width:900px) and (max-width:1326px) {
+  section#\#Services {
+    width: 516vh;
+  }
+
+  div#perimery-item {
+    width: 516vh;
+    background: #3f241d;
+
+  }
+
+  img.carvar-image {
+    border-radius: 8px;
+  }
+}
+
+@media(min-width:1238px) and (max-width:1440px) {
+
+
+  .mainbox1 {
+    width: 42%;
+  }
+
+  .main-box2 {
+    width: 29%;
+  }
+
+  img.car.repair2,
+  img.car.repair1,
+  img.car.repair3 {
+    width: 200px;
+    height: 200px;
+    margin-left: 37px;
+  }
+
+  p.text-para1 {
+    padding-left: 27px;
+  }
+
+  button#call-icon2,
+  button#call-icon1,
+  button#call-icon3 {
+    margin-left: 29%;
+  }
+
+  .row {
+    margin-left: 18px;
+  }
+
+  .main-slider {
+    border-radius: 14px;
+  }
+
+}
+
+/* @media(min-width:200px) and (max-width:1326px) {
+  .car-game {
+    background: url(image/car1.jpg);
+    background-color: rgba(63, 51, 51, 0.94);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 319vh;
+    height: 745px;
+}
+
+div#perimery-item {
+  display: flex
+;
+  background-color: black;
+  color: white;
+  padding: 20px 20px 20px 20px;
+  width: 352%;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 200;
+  font-family: emoji;
+  align-items: center;
+}
+
+section#car-game3 {
+  margin-top: 85px;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding-bottom: 71px;
+  width: 203%;
+}
+
+section#car-game4 {
+  margin-top: 108px;
+  width: 205%;
+}
+
+footer.bg-gray-900.text-white.py-6 {
+  background: #c4c4c4;
+  padding: 30px 30px 66px 30px;
+  width: 205%;
+}
+
+  .main-box2 {
+    border: 1px solid #000000;
+    margin-left: 102%;
+    padding: 10px 120px 26px 120px;
+    border-radius: 16px;
+    background: radial-gradient(black, transparent);
+  }
+
+  img.car.repair2,
+  img.car.repair1,
+  img.car.repair3 {
+    width: 336px;
+    height: 209px;
+    border-radius: 194px;
+    padding-bottom: 20px;
+  }
+
+  h1.header3 {
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    font-family: auto;
+  }
+
+  button#call-icon2,
+  button#call-icon1,
+  button#call-icon3 {
+    margin-top: 20px;
+    padding: 10px 24px 10px 24px;
+    border-radius: 8px;
+    border: none;
+    font-size: 22px;
+    font-family: auto;
+    background-color: white;
+    margin-left: 38px;
+    color: black;
+    cursor: pointer;
+    border: 1px solid black;
+  }
+
+  p.text-para1 {
+    width: 201px;
+    font-weight: 600;
+    font-family: math;
+    color: white;
+    text-align: center;
+  }
+
+  section#car-game1 {
+    margin-top: 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 254vh;
+  }
+
+  p.perimery1 {
+    width: 477px;
+    padding-left: 45px;
+  }
+
+  button.perimery-btn {
+    padding: 10px 24px 10px 24px;
+    border-radius: 8px;
+    border: none;
+    font-size: 22px;
+    font-family: auto;
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+    margin-left: 223px;
+    margin-top: 22px;
+  }
+
+  button.perimery-btn:hover {
+    background-color: white;
+    color: black;
+  }
+
+} */
+
+
+
+/* @media(min-width:60px) and (max-width:1326px) {
+
+  .car-game {
+    background: url(image/car1.jpg);
+    background-color: rgba(63, 51, 51, 0.94);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 255vh;
+    height: 486px;
+  }
+
+  div#perimery-item {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 20px 20px 20px 20px;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 200;
+    width: 255vh;
+    font-family: emoji;
+    align-items: center;
+  }
+
+  .header {
+    display: k;
+  }
+
+  .dropdown-toggle:hover {
+    background-color: #fff;
+    color: black;
+  }
+
+  .dropdown-toggle {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3sease;
+  }
+
+  .main-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  h1.text-heading {
+    padding-left: 554px;
+    display: ruby-text;
+    font-size: 44px;
+    font-family: math;
+    text-transform: capitalize;
+  }
+
+  .main-box1 {
+    flex-wrap: wrap;
+    margin: auto;
+
+  }
+
+} */
+
+/* @media(min-width:720px) and (max-width:1280px) {
+  .mainbox1 {
+    width: 28%;
+    background: white;
+    margin: 12px 20px;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    border-radius: 14px;
+  }
+
+  h1.text-fist {
+    font-size: 40px;
+    text-align: center;
+    font-family: math;
+    text-transform: uppercase;
+    margin-right: 32%;
+    padding-top: 52px;
+    text-decoration: underline;
+    padding-bottom: 31px;
+  }
+
+  div#perimery-item {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 20px 20px 20px 20px;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 200;
+    width: 168vh;
+    font-family: emoji;
+    align-items: center;
+  }
+
+  .car-game {
+    background: url(image/car1.jpg);
+    background-color: rgba(63, 51, 51, 0.94);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 168vh;
+    height: 486px;
+  }
+
+  .mainbox1 {
+    width: 26%;
+    background: white;
+    margin: 12px 20px;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    border-radius: 14px;
+  }
+
+  .main-box2 {
+    border: 1px solid #000000;
+    margin-left: 287%;
+    padding: 10px 120px 26px 120px;
+    border-radius: 16px;
+    background: radial-gradient(black, transparent);
+}
+
+} */
